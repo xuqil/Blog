@@ -20,6 +20,37 @@
 .ul-index li a:hover{
     color: lightblue;
 }
-.search{
+.ul-index .search{
     float: right;
+    margin-right: 20px;
+}
+.main{
+    width: 100%;
+    background: lightblue;
+}
+.content{
+    float: right;
+    width: 70%;
+    top: 65px;
+    bottom: 0;
+}
+.side{
+    height: 65px;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+}
+
+.side a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.side a:hover, .side a:focus{
+    color: #f1f1f1;
 }
