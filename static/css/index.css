@@ -32,7 +32,7 @@ div.nav{
     width: 100%;
 }
 div.nav nav{
-    width: 90%;
+    width: 1226px;
 }
 .nav ul{
     font-size: 0;
@@ -95,18 +95,20 @@ li.active,.nav li:hover{
 /*主体部分*/
 div#body-wrapper{
     font-size: 0;
+    width: 1226px;
 }
 div.main{
     display: inline-block;
     vertical-align: top;
     font-size: 16px;
-    width: 60%;
-    margin: 20px 5px 10px 45px;
+    width: 69%;
+    margin: 20px 5px 10px 0;
 }
 .excerpt{
     background-color: #ffffff;
     padding: 20px 15px 30px 20px;
     margin-bottom: 10px;
+    height: 164px;
 }
 /*.excerpt:after, .excerpt:before {*/
     /*display: table;*/
@@ -171,9 +173,6 @@ div.main{
     width: 200px;
     height: 125px;
 }
-.excerpt{
-    height: 214px;
-}
 .excerpt .note {
     color: #777;
     line-height: 24px;
@@ -182,15 +181,15 @@ div.main{
     overflow: hidden;
     display: inline-block;
     vertical-align: top;
-    width: 554px;
+    width: 590px;
     height:69px
 }
 .excerpt p.auth-span {
     float: right;
     position: relative;
-    bottom: 0;
+    /*bottom: 0;*/
     right: 0;
-    top: 100px;
+    top: 58px;
 }
 .excerpt .muted {
     font-size: 13px;
@@ -217,10 +216,57 @@ div#body-wrapper aside{
     display: inline-block;
     vertical-align: top;
     font-size: 16px;
-    width: 32%;
-    margin: 20px 45px 10px 5px;
+    width: 30%;
+    margin: 20px 0px 10px 5px;
 }
-.aside div{
-    height: 400px;
-    background-color: #150d3a;
+.widget {
+    clear: both;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.title {
+    position: relative;
+    height: 45px;
+    border-bottom: 1px solid #90bba8;
+    margin: 5px 20px;
+}
+.title h2 {
+    font-size: 16px;
+    font-weight: 400;
+    width: 80px;
+    line-height: 45px;
+}
+.hot ul {
+    padding: 0 20px 20px;
+}
+.hot li{
+    display: inline-block;
+}
+.hot li a {
+    padding: 5px 0 15px 90px;
+    border-bottom: solid 1px #eee;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+.hot .thumbnail {
+    float: left;
+    margin-left: -90px;
+    margin-top: 10px;
+}
+.hot .thumbnail img {
+    max-width: 100px;
+    max-height: 64px;
+    display: block;
+    margin: 0 auto;
+}
+.hot .text {
+    margin: 5px 0 0 20px;
+    display: block;
+    height: 50px;
+}
+.hot .muted {
+    padding-left: 10px;
 }
