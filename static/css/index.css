@@ -92,3 +92,135 @@ li.active,.nav li:hover{
 .nav li:last-child:hover{
     background-color: #4a4a4a;
 }
+/*主体部分*/
+div#body-wrapper{
+    font-size: 0;
+}
+div.main{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    width: 60%;
+    margin: 20px 5px 10px 45px;
+}
+.excerpt{
+    background-color: #ffffff;
+    padding: 20px 15px 30px 20px;
+    margin-bottom: 10px;
+}
+/*.excerpt:after, .excerpt:before {*/
+    /*display: table;*/
+    /*content: "";*/
+    /*line-height: 0;*/
+/*}*/
+
+.excerpt header{
+    padding: 0 10px 15px 0;
+}
+.label{
+    position: relative;
+    display: inline-block;
+    height: 14px;
+    padding: 4px 6px 3px;
+    line-height: 14px;
+    color: #fff;
+    vertical-align: baseline;
+    white-space: nowrap;
+    background-color: #999;
+}
+.label,.label-row {
+    top: 7px;
+    right: -4px;
+    border-left: 4px solid #999;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+.label-row{
+    position: absolute;
+    width: 0;
+    height: 0;
+    vertical-align: top;
+    content: "";
+}
+.excerpt h2 {
+    display: inline;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+    position: relative;
+    top: 7px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+.excerpt h2 a{
+    color: #4a4a4a;
+}
+.excerpt h2 a:hover{
+    color: #161616;
+    font-size: 20px;
+    font-weight: 100;
+}
+.excerpt .focus {
+    float: left;
+    margin: 0 20px 0 0;
+    text-align: center;
+    overflow: hidden;
+    display: table;
+}
+.focus img{
+    width: 200px;
+    height: 125px;
+}
+.excerpt{
+    height: 214px;
+}
+.excerpt .note {
+    color: #777;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-style: normal;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 554px;
+    height:69px
+}
+.excerpt p.auth-span {
+    float: right;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    top: 100px;
+}
+.excerpt .muted {
+    font-size: 13px;
+    margin-right: 20px;
+}
+.fa {
+    font-size: 1.23em;
+    text-align: center;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: top;
+}
+.fa a{
+    color: #777;
+}
+
+/*侧边栏*/
+div#body-wrapper aside{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    width: 32%;
+    margin: 20px 45px 10px 5px;
+}
+.aside div{
+    height: 400px;
+    background-color: #150d3a;
+}
