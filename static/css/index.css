@@ -26,23 +26,69 @@ div#logo a{
     color: #3a3a3a;
 }
 
-div#nav{
-    background: #3a3a3a;
+div.nav{
+    background: #4a4a4a;
     height: 52px;
-    width: 1349px;
+    width: 100%;
 }
-div#nav nav{
+div.nav nav{
     width: 1150px;
 }
-#nav li{
+.nav ul{
+    font-size: 0;
+}
+.nav li{
     display: inline-block;
     height: 52px;
-    background: #3a3a3a;
-    padding: 0 10px;
+    background: #4a4a4a;
+    padding: 0 15px;
+    vertical-align: top;
+    font-size: 0;
+    transition: background-color 1s linear;
 }
-#nav li a{
+.nav li:last-child{
+    float: right;
+}
+.nav li a{
     color: #ffff;
     font-size: 16px;
     line-height: 52px;
 
+}
+div#search{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6px;
+    text-align: right;
+    width: 250px;
+}
+div#search form{
+    line-height: 52px;
+    font-size: 0;
+}
+#search input[type='text']{
+    height: 32px;
+    border: solid 1px #3d3d3d;
+    border-right: 0;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    padding:0 10px;
+    border-radius: 6px 0 0 6px;
+}
+#search input[type='submit']{
+    height: 34px;
+    border: solid 1px #3d3d3d;
+    border-left: 0;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    padding:0 6px;
+    border-radius: 0 6px 6px 0;
+    background-color: #4a4a4a;
+    color: #ffff;
+}
+li.active,.nav li:hover{
+    background-color: #769f77;
+}
+.nav li:last-child:hover{
+    background-color: #4a4a4a;
 }
