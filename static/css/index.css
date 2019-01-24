@@ -13,6 +13,9 @@ body{
 a{
     text-decoration: none;
 }
+li{
+    display: inline-block;
+}
 /*头部样式*/
 div#logo {
     text-align: center;
@@ -269,4 +272,92 @@ div#body-wrapper aside{
 }
 .hot .muted {
     padding-left: 10px;
+}
+.hot li a:hover{
+    color: red;
+}
+.archive ul {
+    padding: 10px 20px 5px;
+    overflow: hidden;
+    color: #999;
+}
+.archive li {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-bottom: 5px;
+}
+.archive a{
+    color: #777;
+}
+.archive a:hover{
+    color: #191919;
+}
+.tags {
+    padding: 12px 10px 15px 20px;
+}
+.tags a:nth-child(9n+1) {
+    background-color: rgb(6, 132, 108);
+}
+.tags a:nth-child(9n+1):hover {
+    background-color: rgb(6, 100, 90);
+}
+.tags a:nth-child(9n+2) {
+    background-color: rgb(61, 159, 61);
+}
+.tags a:nth-child(9n+2):hover {
+    background-color: rgb(61, 159, 10);
+}
+.tags a:nth-child(9n+3) {
+    background-color: rgb(197, 46, 42);
+}
+.tags a:nth-child(9n+3):hover {
+    background-color: rgb(200, 20, 42);
+}
+.tags a:nth-child(9n+4) {
+    background-color: rgb(93, 92, 90);
+}
+.tags a:nth-child(9n+4):hover {
+    background-color: rgb(19, 18, 17);
+}
+.tags a:nth-child(9n+5) {
+    background-color: rgb(155, 7, 240);
+}
+.tags a:nth-child(9n+5):hover {
+    background-color: rgb(113, 7, 182);
+}
+.tags a:nth-child(9n+6) {
+    background-color: rgb(0, 135, 98);
+}
+.tags a:nth-child(9n+6):hover {
+    background-color: rgb(0, 111, 80);
+}
+.tags a:nth-child(9n+7) {
+    background-color: rgb(147, 89, 33);
+}
+.tags a:nth-child(9n+7):hover {
+    background-color: rgb(118, 71, 28);
+}
+.tags a:nth-child(9n+8) {
+    background-color: rgb(215, 78, 0);
+}
+.tags a:nth-child(9n+8):hover {
+    background-color: rgb(191, 70, 0);
+}
+.tags a:nth-child(9n) {
+    background-color: rgb(51, 53, 57);
+}
+.tags a:nth-child(9n) {
+    background-color: rgb(14, 15, 17);
+}
+.tags a {
+    width: 44%;
+    opacity: .7;
+    filter: alpha(opacity=80);
+    color: #fff;
+    background-color: #00a67c;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    padding: 2px 6px;
+    line-height: 21px;
 }
