@@ -20,7 +20,7 @@ li{
 div#logo {
     text-align: center;
     height: 106px;
-    background: url("../images/logo.jpg");
+    background: url("../images/index/logo.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -221,6 +221,7 @@ div#body-wrapper aside{
     font-size: 16px;
     width: 30%;
     margin: 20px 0px 10px 5px;
+
 }
 .widget {
     clear: both;
@@ -238,6 +239,9 @@ div#body-wrapper aside{
     font-weight: 400;
     width: 80px;
     line-height: 45px;
+}
+.hot{
+    margin-top: -5px;
 }
 .hot ul {
     padding: 0 20px 20px;
@@ -360,4 +364,59 @@ div#body-wrapper aside{
     margin: 0 5px 5px 0;
     padding: 2px 6px;
     line-height: 21px;
+}
+.links ul{
+    padding: 5px 0 15px 12px;
+    width: 90%;
+    display: inline-block;
+}
+.links li {
+    width: 45%;
+    margin-left: 8px;
+    margin-right: 8px;
+    float: left;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 5px 0 5px 0;
+}
+.links li a {
+    background-color: #fff;
+    padding: 5px 8px;
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    color: #777;
+}
+.links li a:hover{
+    color: #3e3e3e;
+}
+/*脚注*/
+.footer{
+    background-color: #333333;
+    border-top: solid 8px #4a4a4a;
+    height: 78px;
+}
+.footer-inner {
+    max-width: 1226px;
+    padding: 16px 20px 14px;
+    margin: 0 auto;
+    color: #aaa;
+    text-shadow: 0 -1px 0 #333;
+}
+.footer .footer-inner .footer-last {
+    text-align: center;
+    float: none!important;
+}
+.footer-last{
+    float: left;
+}
+.footer a{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    border-right: solid 1px #ffffff;
+    padding-right: 10px;
+    padding-left: 10px ;
+}
+.footer a:last-child{
+    border-right: none;
 }
