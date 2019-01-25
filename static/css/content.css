@@ -58,6 +58,60 @@ span.muted{
 .class-like{
     text-align: center;
     text-indent: 0;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 40px;
+}
+.class-like a{
+    color: #fff;
+}
+.class-like .a-like{
+    display: inline-block;
+    border: solid 1px red;
+    background-color: #ff4400f0;
+    border-radius: 2px;
+    width: 115px;
+    height: 36px;
+    padding-top: 8px;
+}
+.class-like span.share{
+    display: inline-block;
+    border: solid 1px rgb(61, 159, 61);
+    background-color: rgb(61, 159, 61);
+    border-radius: 2px;
+    width: 115px;
+    height: 36px;
+    padding-top: 8px;
+}
+.class-like .or{
+    background: #fff;
+    color: #455670;
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: .8725em;
+    position: absolute;
+    z-index: 2;
+    margin: 4px 0 0 -19px;
+    border-radius: 100px;
+}
+.article-footer{
+    background-color: #fff;
+    border-top: solid 1px #f7f7f7;
+    padding: 15px 20px;
+    overflow: hidden;
+}
+.article-tags{
+    float: left;
+    font-size: 16px;
+}
+.article-tags a:nth-child(5n+2) {
+    background-color: #5cb85c;
+}
+.article-tags a {
+    display: inline-block;
+    padding: 2px 6px 3px;
+    margin: 0 2px;
+    color: #fff;
+    background-color: #4a4a4a;
+    opacity: .7;
+    filter: alpha(opacity=90);
 }

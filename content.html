@@ -16,7 +16,7 @@
         <div class="nav">
             <nav class="container">
                 <ul>
-                    <li><a href="#">首页</a> </li>
+                    <li><a href="index.html">首页</a> </li>
                     <li><a href="#">生活乐趣</a></li>
                     <li  class="active"><a href="#">技术杂谈</a></li>
                     <li><a href="#">关于我</a></li>
@@ -76,7 +76,7 @@
                 本篇文章使用到的技术: mitmdump + 电脑版微信 本篇文章使用到的技术: mitmdump + 电脑版微信 需求 首先来说下需求，需求很简单(-_-!!), 就是爬指定微信公众号的所有文章并保存为pdf。 看到这个需求的时候正好我用电脑登陆着微信，就想着先用电脑抓一下包看可不可行(能少用工具就少用，减少运行依赖)，后来发现果然有本篇文章使用到的技术: 需求 首先来说下需求，需求很简单(-_-!!), 就是爬指定微信公众号的所有文章并保存为pdf。 看到这个需求的时候正好我用电脑登陆着微信，就想着先用电脑抓一下包看可不可行(能少用工具就少用，减少运行依赖)，后来发现果然有本篇文章使用到的技术: mitmdump + 电脑版微信 需求 首先来说下需求，需求很简单(-_-!!), 就是爬指定微信公众号的所有文章并保存为pdf。 看到这个需求的时候正好我用电脑登陆着微信，就想着先用电脑抓一下包看可不可行(能少用工具就少用，减少运行依赖)，后来发现果然有
             </p>
             <div class="class-like">
-                <a href="/">
+                <a class="a-like" href="/">
                     喜欢
                     <span class="count">1</span>
                 </a>
@@ -95,6 +95,42 @@
                 <a href="/">java</a>
             </div>
         </footer>
+        <div id="respond" class="comment">
+            <form action="index.html" method="post" id="comment-form">
+                <div class="comment-title">
+                    <div class="comment-img">
+                        <img src="static/images/index/silde-nav.png" alt="">
+                    </div>
+                </div>
+                <div class="comment-write">
+                    <div class="comment-box">
+                        <textarea placeholder="写点什么..."></textarea>
+                        <div class="comment-submit">
+                            <button id="submit" class="btn" name="submit" type="submit">提交</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="post-comments">
+            <div id="comments">3个评论</div>
+            <ol class="comment-list">
+                <li class="comments">
+                    <div class="c-avatar">
+                        <img src="static/images/index/silde-nav.png" alt="" class="avatar">
+                        <div class="c-main">
+                            评论内容
+                            <div class="c-meta">
+                                <span class="c-author">
+                                    <a href="/">author</a>2019-1-24
+                                    <a href="/">回复</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
     </div>
     <aside class="aside">
         <div class="widget hot">
