@@ -1,0 +1,63 @@
+/*位置*/
+div.main .content{
+    background-color: #fff;
+}
+.content-heard {
+    margin: 0 0 1px;
+    padding: 9px 20px 7px;
+    background-color: #fff;
+}
+.content-heard a{
+    color: #777777;
+}
+.content-heard small {
+    font-size: 12px;
+    color: #bbb;
+    margin: 0 2px;
+    font-weight: 700;
+}
+/*标题*/
+.article-header {
+    padding: 2px 20px 12px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.article-header h1{
+    margin: 5px 0;
+    line-height: 35px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+.article-title a {
+    color: #444;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+span.muted{
+    color: #999;
+}
+/*信息*/
+.meta span, .meta time{
+    margin-right: 20px;
+}
+.meta a{
+    color: #999999;
+}
+/*文章主体*/
+.article-content{
+    font-size: 15px;
+    font-family: 微软雅黑;
+    line-height: 26px;
+    text-indent: 30px;
+    word-break: break-all;
+    word-wrap: break-word;
+    padding: 10px 20px 20px 20px;
+    background-color: #fff;
+}
+.class-like{
+    text-align: center;
+    text-indent: 0;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
