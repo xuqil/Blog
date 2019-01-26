@@ -83,7 +83,7 @@ div.nav nav{
 .nav ul{
     font-size: 0;
 }
-.nav li{
+.nav li.heard{
     display: inline-block;
     height: 52px;
     background: #4a4a4a;
@@ -92,7 +92,7 @@ div.nav nav{
     font-size: 0;
     transition: background-color 0.5s linear;
 }
-.nav li:last-child{
+.nav li.heard:last-child{
     float: right;
 }
 .nav li a{
@@ -100,6 +100,32 @@ div.nav nav{
     font-size: 16px;
     line-height: 52px;
 }
+.drown-tc{
+    position: relative;
+    display: inline-block;
+}
+.drown-content {
+    padding: 0;
+    display: none;
+    position: absolute;
+}
+.drown-li{
+    display: block;
+    padding: 0 15px;
+    height: 52px;
+    min-width: 94px;
+    margin-left: -15px;
+    background: #4a4a4a;
+    font-size: 0;
+    transition: background-color 0.5s linear;
+}
+.drown-content a {
+
+}
+.drown-tc:hover .drown-content {
+    display: block;
+}
+
 div#search{
     display: inline-block;
     vertical-align: top;
@@ -131,10 +157,10 @@ div#search form{
     background-color: #4a4a4a;
     color: #ffff;
 }
-li.active,.nav li:hover{
+li.heard.active,.nav li:hover{
     background-color: rgb(204, 72, 72);
 }
-.nav li:last-child:hover{
+.nav li.heard:last-child:hover{
     background-color: #4a4a4a;
 }
 /*主体部分*/
@@ -155,14 +181,8 @@ div.main{
     margin-bottom: 10px;
     height: 164px;
 }
-/*.excerpt:after, .excerpt:before {*/
-    /*display: table;*/
-    /*content: "";*/
-    /*line-height: 0;*/
-/*}*/
-
 .excerpt header{
-    padding: 0 10px 15px 0;
+    padding: 0 10px 13px 0;
 }
 .label{
     position: relative;
@@ -176,7 +196,7 @@ div.main{
     background-color: #999;
 }
 .label,.label-row {
-    top: 7px;
+    top: 2px;
     right: -4px;
     border-left: 4px solid #999;
     border-top: 4px solid transparent;
@@ -194,7 +214,7 @@ div.main{
     font-size: 20px;
     margin: 0;
     font-weight: 400;
-    position: relative;
+    /*position: relative;*/
     top: 7px;
     line-height: 25px;
     margin-left: 10px;
