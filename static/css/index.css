@@ -44,6 +44,32 @@ div#logo {
 div#logo a{
     line-height: 88px;
     color: #ffffff;
+    width: 193px;
+    height: 42px;
+    display: inline-block;
+}
+@keyframes mylogo {
+    0% {
+        font-size: 34px;
+    }
+    30% {
+        font-size: 36px;
+    }
+    60% {
+        font-size: 38px;
+    }
+    90% {
+        font-size: 36px;
+    }
+    100% {
+        font-size: 32px;
+     }
+}
+#logo a:hover{
+    animation:mylogo 0.5s;
+    -moz-animation:mylogo 0.5s; /* Firefox */
+    -webkit-animation:mylogo 0.5s; /* Safari and Chrome */
+    -o-animation:mylogo 0.5s; /* Opera */
 }
 
 div.nav{
@@ -64,7 +90,7 @@ div.nav nav{
     padding: 0 15px;
     vertical-align: top;
     font-size: 0;
-    transition: background-color 1s linear;
+    transition: background-color 0.5s linear;
 }
 .nav li:last-child{
     float: right;
@@ -73,7 +99,6 @@ div.nav nav{
     color: #ffff;
     font-size: 16px;
     line-height: 52px;
-
 }
 div#search{
     display: inline-block;
