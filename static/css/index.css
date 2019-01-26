@@ -16,17 +16,34 @@ a{
 li{
     display: inline-block;
 }
+/*分页*/
+.page{
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+.page .current, .page .page-numbers, .page a {
+    padding: 4px 12px 3px;
+    color: #666;
+    display: inline-block;
+    background-color: #eee;
+    margin: 0 1px;
+}
+.page .current {
+    background-color: #00a67c;
+    color: #fff;
+}
 /*头部样式*/
 div#logo {
     text-align: center;
-    height: 106px;
-    background: url("../images/index/logo.jpg");
-    background-repeat: no-repeat;
+    height: 88px;
+    background-color: rgb(204, 72, 72);
     background-size: 100%;
 }
 div#logo a{
-    line-height: 106px;
-    color: #3a3a3a;
+    line-height: 88px;
+    color: #ffffff;
 }
 
 div.nav{
@@ -90,7 +107,7 @@ div#search form{
     color: #ffff;
 }
 li.active,.nav li:hover{
-    background-color: #769f77;
+    background-color: rgb(204, 72, 72);
 }
 .nav li:last-child:hover{
     background-color: #4a4a4a;
@@ -270,9 +287,13 @@ div#body-wrapper aside{
     margin: 0 auto;
 }
 .hot .text {
-    margin: 5px 0 0 20px;
+    margin: 10px 0 0 20px;
     display: block;
-    height: 50px;
+    height: 45px;
+    width: 217px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .hot .muted {
     padding-left: 10px;

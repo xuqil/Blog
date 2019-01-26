@@ -115,3 +115,121 @@ span.muted{
     opacity: .7;
     filter: alpha(opacity=90);
 }
+/*评论*/
+#respond {
+    position: relative;
+    background-color: #fff;
+}
+.comment{
+    margin-bottom: 0;
+}
+.comment-title {
+    overflow: hidden;
+    padding: 12px 20px;
+    background-color: #f7f7f7;
+}
+.pull-left{
+    float: left;
+}
+.comment-img{
+    height: 28px !important;
+    width: 28px;
+    overflow: hidden;
+}
+.comment-img img {
+    border-radius: 2px;
+    opacity: .9;
+    height: 28px!important;
+    width: 28px!important;
+}
+.your-comment{
+    color: #666;
+    font-size: 16px;
+    margin: 5px 10px 0 10px;
+}
+.comment-write{
+    padding: 20px 20px 5px 20px;
+}
+.comment-box{
+    overflow: hidden;
+}
+.comment-area{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    min-height: 70px;
+    box-sizing: border-box;
+}
+button#submit{
+    font-size: 15px;
+    float: right;
+    height: 40px !important;
+    color: #fff;
+    padding: 3px 19px;
+    background-color: #3d9f3d;
+    border: solid;
+    border-radius: 7px;
+}
+/*评论内容*/
+#post-comments{
+    background-color: #ffffff;
+}
+#comments{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 20px;
+    line-height: 14px;
+    color: #999;
+    border-bottom: solid 1px #dbece8;
+}
+#comments b{
+    font-weight: 400;
+    font-size: 14px;
+}
+.comment-list{
+    padding: 12px 20px 0 20px;
+    list-style: none;
+    margin: 0;
+}
+li.comment{
+    padding: 12px 0 10px 0;
+    line-height: 20px;
+}
+img.avatar{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 2px;
+    webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-out;
+}
+.c-main {
+    padding: 10px 15px;
+    line-height: 25px;
+    margin-top: -2px;
+    margin-left: 72px;
+    border-radius: 3px;
+    position: relative;
+    background: #fbfdfb;
+    border: 1px #eee solid;
+    font-size: 15px;
+}
+.c-meta {
+    color: #bbb;
+    font-size: 14px;
+}
+.c-author {
+    margin-right: 10px;
+}
+.c-author a{
+    margin-left: 0;
+}
+.c-meta a{
+    color: #00a67c;
+}
+.a-respond{
+    margin-left: 6px;
+}
