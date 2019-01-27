@@ -31,7 +31,7 @@ li{
     margin: 0 1px;
 }
 .page .current {
-    background-color: #00a67c;
+    background-color: #08a26f;
     color: #fff;
 }
 /*头部样式*/
@@ -188,22 +188,23 @@ div.main{
     position: relative;
     display: inline-block;
     height: 14px;
-    padding: 4px 6px 3px;
+    padding: 2px 6px 3px;
     line-height: 14px;
+    top: 2px;
     color: #fff;
     vertical-align: baseline;
     white-space: nowrap;
-    background-color: #999;
+    background-color: rgb(204, 72, 72);
 }
 .label,.label-row {
-    top: 2px;
     right: -4px;
-    border-left: 4px solid #999;
+    border-left: 4px solid rgb(204, 72, 72);
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
 }
 .label-row{
     position: absolute;
+    top: 6px;
     width: 0;
     height: 0;
     vertical-align: top;
@@ -223,7 +224,7 @@ div.main{
     color: #08a26f;
 }
 .excerpt h2 a:hover{
-    color: #161616;
+    color:  #076445;
     font-size: 20px;
     font-weight: 100;
 }
@@ -318,7 +319,7 @@ div#body-wrapper aside{
     position: relative;
     display: block;
     font-size: 14px;
-    color: #777;
+    color: #08a26f;
 }
 .hot .thumbnail {
     float: left;
@@ -358,10 +359,10 @@ div#body-wrapper aside{
     margin-bottom: 5px;
 }
 .archive a{
-    color: #777;
+    color: #08a26f;
 }
 .archive a:hover{
-    color: #191919;
+    color:  #076445;
 }
 .tags {
     padding: 12px 10px 15px 20px;
@@ -450,10 +451,10 @@ div#body-wrapper aside{
     display: inline-block;
     width: 80%;
     text-align: center;
-    color: #777;
+    color: #08a26f;
 }
 .links li a:hover{
-    color: #3e3e3e;
+    color: #076445;
 }
 /*脚注*/
 .footer{
