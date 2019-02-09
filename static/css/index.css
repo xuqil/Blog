@@ -274,7 +274,16 @@ div.main{
     vertical-align: top;
 }
 .fa a{
-    color: #777;
+    color: #08a26f;
+}
+.fa-like a{
+    color: #ff363d;
+}
+.fa a:hover{
+    color: #076445;
+}
+.fa-like a:hover{
+    color: #e53e35;
 }
 
 /*侧边栏*/
